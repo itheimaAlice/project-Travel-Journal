@@ -1,0 +1,84 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 550px;
+    margin: 0 auto;
+    font-family: 'Inter', sans-serif;
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 55px;
+    background: #F55A5A;
+    color: #fff;
+    gap: 10px;
+    margin-bottom: 45px;
+}
+
+.journal {
+    font-size: 14.46px;   
+}
+
+.section {
+    display: flex;
+    width: 85%;
+    margin: 0 auto;
+    padding-bottom: 35px;
+    gap: 20px;
+}
+
+.container {
+    align-self: center;
+}
+
+img {
+    width: 125px;
+    height: 168px;
+    border-radius: 5px;
+}
+
+.location {
+    display: flex;
+    gap: 10px;
+    font-size: 10.24px;
+}
+
+.fa-location-dot {
+    color: #F55A5A; 
+}
+
+.country {
+    color: #2B283A;
+}
+
+a {
+    color: #918E9B;
+}
+
+.viewpoint, .date, .description {
+    color: #2B283A;
+}
+
+.viewpoint {
+    font-size: 25px;
+    margin-top: 8px;
+    margin-bottom: 15px;
+}
+
+.date, .description {
+    font-size: 10.24px;
+}
+
+.date {
+    margin-bottom: 8px;
+}
+
+.description {
+    line-height: 16px;
+}
